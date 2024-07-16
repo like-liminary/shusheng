@@ -1,0 +1,14 @@
+#完成ssh连接与端口映射
+#首先完成ssh连接，并配置远程连接
+#ssh连接，输入命令后输入密码
+ssh -p 35332 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+#配置远程连接秘钥，输入命令后将生成秘钥
+ssh-keygen -t rsa
+#配置端口映射
+ssh -p 35332 root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:7860 -o StrictHostKeyChecking=no
+
+
+
+#首先创建一个名为test的conda环境
+conda create -n test python==3.8
+然后
