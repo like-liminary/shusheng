@@ -1,3 +1,4 @@
+#linux
 #完成ssh连接与端口映射
 
 #ssh连接，输入命令后输入密码
@@ -23,3 +24,13 @@ ssh -p 35332 root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:7860 -o StrictHost
 #创建一个名为test的conda环境
 conda create -n test python==3.8
 ![image](https://github.com/user-attachments/assets/a2936a95-cc10-4c68-a4d3-e1e659e582fd)
+
+
+
+#git
+
+#提交破冰介绍
+
+![image](https://github.com/user-attachments/assets/5605ff6d-bdd9-42d2-88ee-2819bbc93f20)
+![image](https://github.com/user-attachments/assets/2b87236a-badd-4656-98bc-bbaa68debf9f)
+
