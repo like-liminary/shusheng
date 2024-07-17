@@ -19,6 +19,12 @@ def wordcount(text):
     return word_freq
 
 # 示例
-text = "Hello, world! Hello, Python. Python is great."
+text = """
+Hello world!  
+This is an example.  
+Word count is fun.  
+Is it fun to count words?  
+Yes, it is fun!
+"""
 result = wordcount(text)
 print(result)
