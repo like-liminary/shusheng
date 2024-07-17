@@ -1,3 +1,7 @@
+###"跳转链接"
+[跳转链接](https://github.com/InternLM/Tutorial)
+
+
 #linux
 #完成ssh连接与端口映射
 
@@ -33,4 +37,7 @@ conda create -n test python==3.8
 
 ![image](https://github.com/user-attachments/assets/5605ff6d-bdd9-42d2-88ee-2819bbc93f20)
 ![image](https://github.com/user-attachments/assets/2b87236a-badd-4656-98bc-bbaa68debf9f)
+
+
+
 
