@@ -71,7 +71,8 @@ streamlit run examples/internlm2_agent_web_demo.py
 
 接下来，在本地浏览器中打开 `localhost:8501`，并修改**模型名称**一栏为 `internlm2_5-7b-chat`，修改**模型 ip**一栏为`127.0.0.1:23333`。
 
-![image-20240909152909745](C:\Users\wty\AppData\Roaming\Typora\typora-user-images\image-20240909152909745.png)
+![image](https://github.com/user-attachments/assets/5d008821-f394-4394-8dc8-fda2cd7c08bd)
+
 
 ## 基于 Lagent 自定义智能体
 
@@ -165,4 +166,4 @@ class MagicMaker(BaseAction):
 
 接下来，启动 Web Demo 来体验一下吧！我们同时启用两个工具，然后输入“请帮我生成一幅油画”
 
-![image-20240909153135415](C:\Users\wty\AppData\Roaming\Typora\typora-user-images\image-20240909153135415.png)
+![image](https://github.com/user-attachments/assets/49388df8-b74c-4d30-900c-8c5dcbcbe91c)
